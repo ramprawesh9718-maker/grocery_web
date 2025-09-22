@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grocery Management System</title>
+
+	<link rel="icon" type="image/icon" href="ramprawesh/favicon.png">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="grocery.css">
+
+<!-- for all 9images -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+<header class="header">
+	<a href="#" class="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Grocery</a>
+
+	<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#Features">Features</a>
+		<a href="#Products">Products</a>
+		<a href="#Categories">Categories</a>
+		<a href="#Review">Review</a>
+		<a href="#Blogs">Blogs</a>
+	</nav>
+
+
+	<div class="icons">
+		<div class="fa fa-bars" id="menu-btn"></div>
+		<div class="fa fa-search" id="search-btn"></div>
+		<div class="fa fa-shopping-cart" id="cart-btn"></div>
+		<div class="fa fa-user" id="login-btn"></div>
+	</div>
+
+		<form class="search-form">
+			<input type="search" id="search-box" placeholder="Search here....">
+			<label for="search-box" class="fa fa-search"></label>
+		</form>
+
+
+
+		<div class="shopping-cart">
+			<div class="box">
+				<i class="fa fa-trash"></i>
+				<img src="F:\ramprawesh\mango.png" height="90px" width="110px">
+				<div class="content">
+					<h3>Mango</h3>
+					<span class="price">99.99/-</span>
+					<span class="quantity">Qty : 1</span>
+				</div>
+			</div>
+
+			<div class="box">
+				<i class="fa fa-trash"></i>
+				<img src="F:\ramprawesh\tomato.jpg" height="90px" width="110px">
+				<div class="content">
+					<h3>Potato</h3>
+					<span class="price">49.99/-</span>
+					<span class="quantity">Qty : 1</span>
+				</div>
+			</div>
+
+			<div class="box">
+				<i class="fa fa-trash"></i>
+				<img src="F:\ramprawesh\chicken.jpg" height="90px" width="110px">
+				<div class="content">
+					<h3>Chicken</h3>
+					<span class="price">199.99/-</span>
+					<span class="quantity">Qty : 1</span>
+				</div>
+			</div>
+
+			<div class="total"> total: 349.97</div>
+			<a href="#" class="btn">Checkout</a>
+			
+	</div>
+
+
+
+
+<form action="#" class="login-form">
+	<h3>login now</h3>
+	<input type="email" placeholder="enter ur e-mail" class="box"><br>
+	<input type="password" placeholder="ur password." class="box"><br>
+
+<p>Forgot Password <a href="#">Click Here</a></p>
+<p>Don't Have an Account <a href="#">Create Now</a></p>
+
+	<input type="submit" value="Login Low" class="btn">
+</form>
+
+
+</header>
+
+
+
+<section class="home" id="home">
+	
+	<div class="content">
+		<h3>Fresh And <span>Organic</span> Product For You</h3>
+		<p>This Website is Design by Ramprawesh Web Developer.If any body want to purches any kind of Software then Contact Me:=> 8969688550</p>
+		<a href="#" class="btn">Shop Now</a>
+	</div>
+
+</section>
+										
+
+           <!-- Our Features -->
+
+<section class="features" id="features">
+	<h1 class="heading">Our <span>Features</span> </h1>
+
+
+	<div class="box-container">
+		<div class="box">
+			<img src="F:\ramprawesh\organic1.png"> 
+			<h3>Fresh and organic</h3> 
+			<p>We have always Fresh and product organic, and we are always available 24 hours online and offline.</p> 
+			<a href="#" class="btn">Read more</a>
+		</div>
+
+		<div class="box">
+			<img src="F:\ramprawesh\delivery1.png"> 
+			<h3>Fresh and organic</h3> 
+			<p>We have always Fresh and product organic, and we are always available 24 hours online and offline.</p> 
+			<a href="#" class="btn">Read more</a>
+		</div>
+
+		<div class="box">
+			<img src="F:\ramprawesh\payment.png"> 
+			<h3>Fresh and organic</h3> 
+			<p>We have always Fresh and product organic, and we are always available 24 hours online and offline.</p> 
+			<a href="#" class="btn">Read more</a>
+		</div>
+	</div>
+</section>
+
+                  <!-- Our product  -->
+
+ <section class="products" id="products">
+ 	<h1 class="heading">Our <span>Products</span></h1> 
+
+<div class="swiper product-slider">
+ 	<div class="swiper-wrapper">
+ 		<div class="swiper-slide box">
+		 			<img src="F:\ramprawesh\breakfast.png" height="25%" width="25%">
+		 			<h1>Fresh Breakfast</h1>
+		 			<div class="price">99.99/-- 149.99/</div>
+		 			<div class="stars">
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star-half"></i>
+		 			</div>
+		 			<a href="" class="btn">Add-to-cart</a>
+		</div>
+ 	
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\dinner2.png" height="25%" width="25%">
+ 			<h1>Fresh Lunch&Dinner</h1>
+ 			<div class="price">119.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\nonveg1.jpg" height="25%" width="25%">
+ 			<h1>Fresh Chicken&Motton</h1>
+ 			<div class="price">120/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\fish2.jpg" height="25%" width="25%">
+ 			<h1>Fresh&Testy Fry-Fish</h1>
+ 			<div class="price">99.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\burger2.png" height="25%" width="25%">
+ 			<h1>Fresh&Testy Burger</h1>
+ 			<div class="price">99.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\chaumin.jpg" height="25%" width="25%">
+ 			<h1>Fresh Testy chaumin</h1>
+ 			<div class="price">99.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\pomigrate.jpg" height="25%" width="25%">
+ 			<h1>Fresh Pomigranate</h1>
+ 			<div class="price">99.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\apple.png" height="25%" width="25%">
+ 			<h1>Fresh Apple</h1>
+ 			<div class="price">99.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\vegetable1.jpg" height="25%" width="25%">
+ 			<h1>Fresh Vegetable</h1>
+ 			<div class="price">20.00/-- 149.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+ 	</div>
+
+</div>
+
+
+
+<div class="swiper product-slider">
+ 	<div class="swiper-wrapper">
+ 		<div class="swiper-slide box">
+		 			<img src="F:\ramprawesh\newvjtble.png" height="25%" width="25%">
+		 			<h1>Vegetable</h1>
+		 			<div class="price">49.99/-- 99.99/</div>
+		 			<div class="stars">
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star"></i>
+		 				<i class="fa fa-star-half"></i>
+		 			</div>
+		 			<a href="" class="btn">Add-to-cart</a>
+		</div>
+ 	
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\lemon.png" height="25%" width="25%">
+ 			<h1>Fresh Lemon</h1>
+ 			<div class="price">10.00/-- 20.00/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\potato.png" height="25%" width="25%">
+ 			<h1>Red and White potato</h1>
+ 			<div class="price">20.00/-- 29.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\prwl.jpg" height="25%" width="25%">
+ 			<h1>Fresh Parawal</h1>
+ 			<div class="price">29.99/-- 79.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\atta.png" height="25%" width="25%">
+ 			<h1>Fresh Flour</h1>
+ 			<div class="price">99.99/-- 179.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\grocery1.png" height="25%" width="25%">
+ 			<h1>Ghee,Pickles,Oil....</h1>
+ 			<div class="price">99.99/-- 1499.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\rice.png" height="25%" width="25%">
+ 			<h1>Fresh Rice</h1>
+ 			<div class="price">29.99/-- 199.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\pulse.jpg" height="25%" width="25%">
+ 			<h1>Pure Pulse</h1>
+ 			<div class="price">99.99/-- 299.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+
+ 		
+ 		<div class="swiper-slide box">
+ 			<img src="F:\ramprawesh\spice.png" height="25%" width="25%">
+ 			<h1>Pure Spices</h1>
+ 			<div class="price">99.99/-- 499.99/</div>
+ 			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+ 			<a href="" class="btn">Add-to-cart</a>
+ 		</div>
+ 	</div>
+
+</div>     
+
+ 													
+ </section>
+
+
+               <!--OUR CATEGORIES  -->
+<section class="categories" id="categories">
+	<h1 class="heading">Product <span>Categories</span></h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="F:\ramprawesh\cat3.png">
+			<h3>Fruits</h3>
+			<p>40% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+
+		<div class="box">
+			<img src="F:\ramprawesh\cat2.png">
+			<h3>Dairy Products</h3>
+			<p>20% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+
+		<div class="box">
+			<img src="F:\ramprawesh\cat1.png">
+			<h3>Vegetables</h3>
+			<p>40% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+
+		<div class="box">
+			<img src="F:\ramprawesh\cat4.png">
+			<h3>Chicken</h3>
+			<p>25% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+
+</div>
+
+</section>
+
+
+
+
+         <!--  Review section  -->
+<section class="review" id="review">
+	<h1 class="heading">Customer's <span>Review</span></h1>
+
+	<div class="swiper review-slider">
+		<div class="swiper-wrapper">
+		<div class="swiper-slide box">
+			<img src="F:\ramprawesh\pic1.png">
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<h3>John Deo</h3>
+			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+		</div>
+
+
+
+		<div class="swiper-slide box">
+			<img src="F:\ramprawesh\pic2.png">
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<h3>Jonhy Deo</h3>
+			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 			</div>
+		</div>
+
+
+
+
+		<div class="swiper-slide box">
+			<img src="F:\ramprawesh\pic3.png">
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<h3>Marthin Luse</h3>
+			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 			</div>
+		</div>
+
+
+
+		<div class="swiper-slide box">
+			<img src="F:\ramprawesh\pic4.png">
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<h3>Sethi Bhetiya</h3>
+			<div class="stars">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half"></i>
+ 			</div>
+		</div>
+
+</div>
+
+	</div>
+
+</section>
+
+
+
+				<!--  Blog section  -->
+<section class="blogs" id="blogs">
+	<h1 class="heading">Our <span>Blogs</span></h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="F:\ramprawesh\bg1.jpg">
+			<div class="content">
+				<div class="icons">
+					<a href="#"><i class="fa fa-user"></i> Ram</a>
+					<a href="#"><i class="fa fa-calendar"></i> 15th Sep, 2023</a>
+				</div>
+				<h3>Fresh and organic Vegetable and Fruits</h3>
+				<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#" class="btn">Read more</a>
+			</div>
+		</div>
+
+
+
+		<div class="box">
+			<img src="F:\ramprawesh\bg2.jpg">
+			<div class="content">
+				<div class="icons">
+					<a href="#"><i class="fa fa-user"></i> Ramesh</a>
+					<a href="#"><i class="fa fa-calendar"></i> 15th Sep, 2023</a>
+				</div>
+				<h3>Fresh and organic Vegetable and Fruits</h3>
+				<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#" class="btn">Read more</a>
+			</div>
+		</div>
+
+
+		<div class="box">
+			<img src="F:\ramprawesh\bg3.jpg">
+			<div class="content">
+				<div class="icons">
+					<a href="#"><i class="fa fa-user"></i> Ratan</a>
+					<a href="#"><i class="fa fa-calendar"></i> 15th Sep, 2023</a>
+				</div>
+				<h3>Fresh and organic Vegetable and Fruits</h3>
+				<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="#" class="btn">Read more</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+			<!--Footer section-->	
+<section class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>Groco <i class="fa fa-shopping-basket"></i></h3>
+			<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="share">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+			</div>
+		</div>
+
+
+		<div class="box">
+			<h3>Contact Info </h3>
+			<a href="#" class="links"><i class="fa fa-phone"></i> +91 8969688550</a>
+			<a href="#" class="links"><i class="fa fa-whatsapp"></i> +91 8969688550</a>
+			<a href="#" class="links"><i class="fa fa-envelope"></i>ram550@gmail.com</a>
+			<a href="#" class="links"><i class="fa fa-map-marker"></i>Bihar, India</a>
+
+		</div>
+
+
+
+		<div class="box">
+			<h3>Quick Links </h3>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i> Products</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i> Review</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs</a>
+
+		</div>
+
+
+		<div class="box">
+			<h3>Newsletter </h3>
+			<p>Downloade And Subscribe For Latest Updates</p>
+			<input type="email" placeholder="Enter email" class="email">
+			<input type="submit" value="Subscribe" class="btn">
+			<img src="F:\ramprawesh\payment2.png" class="payment-img">
+
+		</div>
+	</div>
+
+
+	<div class="credit">Created By <span>Ramprawesh Kumar</span> | All Rights Reserved</div>
+	
+</section>				
+
+
+
+
+
+<!--for all images scroll link  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> 
+
+<script src="grocery.js"></script>
+</body>
+</html>
