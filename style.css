@@ -334,7 +334,7 @@ color: var(--green);
 	border: 0px solid;
 	display: flex;
 	justify-content: center;
-	background: url(../ramprawesh/baner.jpg) no-repeat;
+	background: url(baner.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding-top: 22rem;
@@ -368,7 +368,7 @@ color: var(--green);
 }
 
 
-                        /*  Media queires   Video 12:- media queries */
+                        /*  Media queires  */
 @media (max-width:991px){
 	html{
 	font-size: 40%;
